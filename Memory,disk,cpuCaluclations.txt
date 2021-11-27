@@ -1,0 +1,4 @@
+#!/bin/bash
+date
+free -m
+df -h

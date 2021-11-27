@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Enter Number1"
+read number1
+echo "Enter Number2"
+read number2
+echo "Total:" $((number1+number2))
