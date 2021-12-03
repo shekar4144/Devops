@@ -1,10 +1,9 @@
-pipeline{
-    agent{
-        lable 'slavenode'
+pipeline {
+    agent any
+    stages { 
+        stage('checkout') {
+            steps {'checkout scm'}
+        }
     }
-    stages{
-        stage(checkout)
-        steps{checkout scm}
-    }
-
 }
+
